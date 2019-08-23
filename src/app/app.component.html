@@ -1,0 +1,9 @@
+<div>
+  <input type="text" #input>
+  <button (click)="add(input.value)">Send</button>
+</div>
+<ul>
+  <li *ngFor="let item of timeline">
+    {{ item }}
+  </li>
+</ul>
